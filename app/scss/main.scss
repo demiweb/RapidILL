@@ -144,6 +144,12 @@ p, h1, ul, ol, h2, h3, h4, h5, h6 {
   background: -o-linear-gradient(top, #2f4fc9 35%, #1c3392 70%, #1c3190 90%);
   background: linear-gradient(180deg, #2f4fc9 35%, #1c3392 70%, #1c3190 90%);
 }
+
+.calculator-bg.bg-home {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2f4fc9), color-stop(100%, #082d81));
+  background: -o-linear-gradient(top, #2f4fc9 0%,  #082d81 100%);
+  background: linear-gradient(180deg, #2f4fc9 0%, #082d81 100%);
+}
 .calculator-head {
   width: 100%;
   position: relative;
