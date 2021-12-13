@@ -342,14 +342,17 @@ p, h1, ul, ol, h2, h3, h4, h5, h6 {
   left: 0;
   bottom: 0;
   z-index: 1;
-  overflow: hidden;
 
   img {
     position: absolute;
-    left: 55px;
+    left: 0;
+    right: 0;
     width: auto;
+    max-width: calc(100% - 55px);
     height: auto;
-    top: -308px;
+    top: -311px;
+    bottom: 0;
+    margin-left: 55px;
   }
 }
 
@@ -594,7 +597,7 @@ body::-webkit-scrollbar {
   img {
     width: 20px;
     height: 26px;
-    margin: 0 41px 0 12px;
+    margin: -3px 41px 0 12px;
   }
 
   &:hover {

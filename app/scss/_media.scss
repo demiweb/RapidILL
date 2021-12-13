@@ -16,7 +16,23 @@
     img {
       &:nth-child(1) {
         width: 100%;
-        top: 165px;
+        top: -290px;
+        bottom: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .calculator {
+    zoom: 0.65;
+  }
+  .calc-savings__bg {
+    img {
+      &:nth-child(1) {
+        width: 100%;
+        top: -200px;
+        bottom: 0;
       }
     }
   }
@@ -28,7 +44,7 @@
     img {
       &:nth-child(1) {
         width: auto;
-        top: 250px;
+        top: -70px;
       }
     }
   }
