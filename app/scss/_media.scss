@@ -364,8 +364,22 @@
   }
   .calculator-bg {
     background: linear-gradient(135deg, rgb(36, 50, 199), rgb(83, 94, 211));
-
   }
+  .calculator-bg.bg-second {
+    background: linear-gradient(to right,#0010be 0%,#001cbb 100%);
+  }
+  .calculator-bg.bg-second::after {
+    display: inline-block;
+    content: '';
+    position:absolute;
+    bottom:0;
+    right:0;
+    left: 0;
+    top: 0;
+    background: linear-gradient(97deg, rgba(255,255,255,0.025647759103641476) 57%, rgba(0, 102, 167, 1) 90%);
+  }
+
+
   .form-calc {
     padding: 54px 29px 57px 28px;
     margin-bottom: 37px;
